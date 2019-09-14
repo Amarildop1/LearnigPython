@@ -1,2 +1,2 @@
 # LearnigPython
-Exercícios em Python
+Exercises in Python.
