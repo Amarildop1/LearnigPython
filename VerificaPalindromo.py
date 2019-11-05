@@ -1,9 +1,5 @@
 #Verifica se a string é um Palíndromo.
 #Author Amarildo - 05.Nov.19
-"""
-    Palíndromo: Quando uma palavra ou frase pode ser lida 
-    iniciando pela esquerda ou pela direita.
-"""
 
 cond = True
 print("\n----------- Verifica se a string é um Palídromo -----------\n")
@@ -16,5 +12,11 @@ while cond != 'fim':
     print("Invertido: ", invert)
 
     if (invert == entrada):
-        print(f'"{invert}", É um palíndromo! \n')
-    
+        print(f'"{invert}" É um palíndromo! \n')
+    else:
+        print(f'Ops! "{entrada}" não é um palíndromo. \n')
+
+"""
+    Palíndromo: Quando uma palavra ou frase pode ser lida 
+    iniciando pela esquerda ou pela direita.
+"""
