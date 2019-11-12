@@ -3,11 +3,14 @@ vetorB = []
 
 N = int(input("\nInforme a quantidade de elementos do vetor: "))
 
+#Preenche o vetor com a entrada
 for i in range(N):
     vetorA.append(int(input(f"Digite o {i+1}º elemento: ")))
 
+#Recebe um multiplicador
 K = int(input("\nDigite um número inteiro: "))
 
+#Construindo um novo vetor
 for i in range(len(vetorA)):
     vetorB.append(vetorA[i] * K)
 
@@ -15,6 +18,7 @@ print("\nVetor A:", vetorA)
 
 print(f"\nMultiplicando pelo escalar '{K}' é gerado o vetor B:", vetorB)
 print()
+
 
 """
     Leia um vetor A de N números inteiros (N será lido), 
