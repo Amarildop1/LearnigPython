@@ -1,10 +1,3 @@
-#@Author Amarildo
-#L3-Q15 - 14.Out.2019
-'''
-Solicita uma senha do usuário e verifica se acertou.
-Senha correta: abcd
-Três tentativas erradas encerra o programa.
-'''
 senha = 'abcd'
 erro = 0 
 
@@ -20,3 +13,10 @@ while(erro != 3):   #Com while True também funciona
             break
         print("Tente novamente!")
         
+'''
+Solicita uma senha do usuário e verifica se acertou.
+Senha correta: abcd
+Três tentativas erradas encerra o programa.
+'''
+#@Author Amarildo
+#L3-Q15 - 14.Out.2019
