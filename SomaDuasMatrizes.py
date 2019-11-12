@@ -1,9 +1,3 @@
-"""
-    Preenche duas matrizes 2x3 com valores inteiros fornecidos pelo usuário. 
-    Soma as duas matrizes.
-    Armazena o resultado em uma terceira matriz e exibe.
-"""
-
 linha = 2
 coluna = 3
 
@@ -11,7 +5,7 @@ matrizA = []
 matrizB = []
 matrizSoma = []
 
-#Preenche com zero
+#Preenche com zeros
 for i in range(linha):
     matrizA.append([0]*coluna)
     matrizB.append([0]*coluna)
@@ -51,3 +45,8 @@ print("\nMatriz Soma: ")
 for i in range(linha):
     print(matrizSoma[i])
 
+"""
+    Preenche duas matrizes 2x3 com valores inteiros fornecidos pelo usuário. 
+    Soma as duas matrizes.
+    Armazena o resultado em uma terceira matriz e exibe.
+"""
