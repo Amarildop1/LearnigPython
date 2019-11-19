@@ -33,3 +33,4 @@ else:
     e um valor inteiro K,
     calcule e exiba a quantidade de ocorrências de K dentro de V.
 """
+#Q1-L04
