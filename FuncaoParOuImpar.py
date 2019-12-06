@@ -1,11 +1,3 @@
-#List08 - Quest04
-#Funções
-# 05.Dez.2019
-#Função diz se o número é par ou ímpar.
-"""
-    Programa principal recebe vários números e 
-    conta quantos são pares e quantos são ímpares.
-"""
 
 def par(num):
     if num % 2 == 0:
@@ -31,3 +23,12 @@ print("\nQuantidade de números pares:", qtdePar)
 print("Quantidade de números ímpares", qtdeImpar)
 
 
+#List08 - Quest04
+#Funções
+# 05.Dez.2019
+#Função diz se o número é par ou ímpar.
+"""
+    Programa principal recebe vários números e 
+    conta quantos são pares e quantos são ímpares.
+    Condição de parada: Digitar 0 (zero)
+"""
