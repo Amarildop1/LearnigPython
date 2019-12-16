@@ -6,12 +6,12 @@
 Uma empresa provedora de internet, cujo domínio é “ifnet.com.br”, deseja manter os dados dos seus clientes salvos em um arquivo de texto. Cada linha do arquivo armazena os dados de um cliente que são CPF, nome e e-mail, ambos separados por “;” (ponto-e-vírgula).
 
 O programa deverá exibir um menu, repetidamente, com as seguintes opções a ser escolhida pelo usuário:
-	- [1] Cadastrar usuário
-	- [2] Pesquisar usuário
-	- [3] Alterar usuário
-	- [4] Excluir usuário
-	- [5] Listar usuários
-	- [0] Sair
+	* [1] Cadastrar usuário
+	* [2] Pesquisar usuário
+	* [3] Alterar usuário
+	* [4] Excluir usuário
+	* [5] Listar usuários
+	* [0] Sair
 
 A descrição para cada opção encontra-se a seguir:
 
