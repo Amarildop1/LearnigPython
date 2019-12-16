@@ -20,8 +20,8 @@ A descrição para cada opção encontra-se a seguir:
 
 Permite inserir os dados do usuário no arquivo. Tanto o CPF quanto o nome serão fornecidos via teclado. Em seguida, o sistema gerará e exibirá três opções de e-mail (baseados nos dados de entrada), cabendo ao usuário escolher uma delas. As opções de e-mail deverão seguir as seguintes regras:
 
-	- **Opção 1:** número do CPF (sem digitos e pontos)+ @ + domínio da empresa
-	- Opção 2: primeiro nome+.+ ultimo nome + @ + domínio da empresa
+	- Opção 1: número do CPF (sem digitos e pontos) + @ + domínio da empresa
+	- Opção 2: primeiro nome +.+ ultimo nome + @ + domínio da empresa
 	- Opção 3: primeiro nome + três primeiros numeros do CPF + @ + domínio da empresa
 
 Por exemplo, para o nome **“Jose Antonio Filho”**, de **CPF: 123.456.789-01**, as opções geradas são:
